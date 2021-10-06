@@ -8,6 +8,8 @@ This directory contains the code necessary to perform the MC data comparison for
 
 To compile **SIGfakes.C** or **MCfakes.C** :
 
+```
 g++ -c SIGfakes.h $ROOTSYS/bin/root-config --libs --cflags<br/>
 g++ -o SIGfakes.exe SIGfakes.cpp SIGfakes.C $ROOTSYS/bin/root-config --libs --cflags<br/>
 ./SIGfakes.exe name_of_the_ntupla
+```
